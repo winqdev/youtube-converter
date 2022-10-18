@@ -1,0 +1,27 @@
+<script>
+    var button = document.getElementsByClassName("convert-button");
+    var buttonn = document.getElementsByClassName("convert-buttonn");
+    
+    function download() {
+        location.href = `https://server.winqdev.xyz/mp3?URL=${document.getElementsByClassName('URL-input')[0].value}`
+    }
+    
+    function downloadd() {
+        location.href = `https://server.winqdev.xyz/mp4?URL3=${document.getElementsByClassName('URL-input')[0].value}`
+    }
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>EasyConvert</title>
+</head>
+<body>
+    <h3>Made by: Victor Buruiana (aka Winq)</h3>
+    <h1 class="heading">EasyConvertor</h1>
+    <input class="URL-input" placeholder="Link">
+    <button onclick="download()" class="convert-button">Convert MP3</button>
+    <button onclick="downloadd()" class="convert-buttonn">Convert MP4</button>
+</body>
+</html>
