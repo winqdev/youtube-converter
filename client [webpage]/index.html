@@ -2,12 +2,14 @@
     var button = document.getElementsByClassName("convert-button");
     var buttonn = document.getElementsByClassName("convert-buttonn");
     
+    //Note: put link from your website at link 8 and 12
+    
     function download() {
-        location.href = `https://server.winqdev.xyz/mp3?URL=${document.getElementsByClassName('URL-input')[0].value}`
+        location.href = `https://example.com/mp3?URL=${document.getElementsByClassName('URL-input')[0].value}`
     }
     
     function downloadd() {
-        location.href = `https://server.winqdev.xyz/mp4?URL3=${document.getElementsByClassName('URL-input')[0].value}`
+        location.href = `https://example.com/mp4?URL3=${document.getElementsByClassName('URL-input')[0].value}`
     }
 </script>
 
@@ -19,7 +21,7 @@
 </head>
 <body>
     <h3>Made by: Victor Buruiana (aka Winq)</h3>
-    <h1 class="heading">EasyConvertor</h1>
+    <h1 class="heading">Your name converter</h1>
     <input class="URL-input" placeholder="Link">
     <button onclick="download()" class="convert-button">Convert MP3</button>
     <button onclick="downloadd()" class="convert-buttonn">Convert MP4</button>
