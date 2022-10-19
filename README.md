@@ -10,3 +10,8 @@ My first YouTube converter/downloader using Express and Ytdl-Core
 
 # Client Packages (Python)
 Get requests [here](https://pypi.org/project/requests/)
+
+# Tested client protocols
+**For Python:** HTTP (Not tested), HTTPS (Tested and works)
+**For Batch:** HTTP (Not tested), HTTPS (Tested and works)
+**For NodeJS:** HTTP (Tested and works), HTTPS (Not tested)
