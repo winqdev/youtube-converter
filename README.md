@@ -9,7 +9,10 @@ My first YouTube converter/downloader using Express and Ytdl-Core
 ***Cors:*** [![Cors](https://badgen.net/npm/v/cors)](https://www.npmjs.com/package/cors)
 
 # Client Packages (Python)
-Get requests [here](https://pypi.org/project/requests/)
+***Requests:*** Get it [here](https://pypi.org/project/requests/)
+
+# Client Packages (NodeJS)
+***Fs:*** [![Fs](https://badgen.net/npm/v/fs)](https://www.npmjs.com/package/fs)
 
 # Tested client protocols
 **For Python:** HTTP (Not tested), HTTPS (Tested and works)
