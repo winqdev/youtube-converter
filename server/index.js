@@ -5,7 +5,7 @@ const app = express();
 const contentDisposition = require('content-disposition')
 //Fill all
 const port = 8080 //If you want change it, Make sure its number, not string
-const errorweb = "url" //404 Webpage
+const errorweb = "url" //404 Webpage, Must be a string
       
 app.use(cors());
 
