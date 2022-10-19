@@ -20,6 +20,8 @@ My first YouTube converter/downloader using Express and Ytdl-Core
 **For Batch:** HTTP (Not tested), HTTPS (Tested and works)
 <br>
 **For NodeJS:** HTTP (Tested and works), HTTPS (Not tested)
+<br>
+**For HTML:** Both (Because redirects to server and server back)
 
 # Warning
 All those things i've tested on [REPL](repl.it)
