@@ -4,7 +4,7 @@
 
 Echo Make sure you've changed your server route link at 26 line
 Echo Warning: All your downloaded video/audio will be saved at C:\Downloaded
-timeout 5
+timeout 4
 cls
 goto begin
 
