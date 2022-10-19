@@ -13,5 +13,7 @@ Get requests [here](https://pypi.org/project/requests/)
 
 # Tested client protocols
 **For Python:** HTTP (Not tested), HTTPS (Tested and works)
+<br>
 **For Batch:** HTTP (Not tested), HTTPS (Tested and works)
+<br>
 **For NodeJS:** HTTP (Tested and works), HTTPS (Not tested)
