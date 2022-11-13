@@ -1,3 +1,11 @@
+/*****************************
+*
+*  YouTube Convertor       
+*  (c) Winq (winqdev) 2022 
+*  under Apache License 2.0
+*
+*****************************/
+
 const express = require('express');
 const cors = require('cors');
 const ytdl = require('ytdl-core');
