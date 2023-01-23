@@ -20,7 +20,7 @@ app.use(cors());
 app.listen(port, () => {
     console.log("Ready!")
 });
-//Route for MP3 downloading
+//Route for MP3 (audio) downloading
 app.get('/mp3', (req,res) => {
     
 var URL = req.query.URL; // example.com/mp3?URL=<youtube link>
@@ -59,7 +59,7 @@ ytdl(URL2, {
     }).pipe(res)
 }
 })
-//Route for MP3 downloading
+//Route for MP4 (video) downloading
 app.get('/mp4', (req,res) => {
   
 var URL3 = req.query.URL3; // example.com/mp4?URL3=<youtube link>
