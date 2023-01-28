@@ -44,7 +44,7 @@ if(validator == false) {
         (async function() {
     var songtitle = await ytdl.getInfo(URL2)   
         res.set({
-            'Content-Disposition': 'attachment; filename=' + songtitle.videoDetails.title + '.mp3'
+            'Content-Disposition': contentDisposition(songtitle.videoDetails.title + '.mp3')
             //Downloading audio with his name
         });
 })();
@@ -84,7 +84,7 @@ if(validatorr == false) {
     var songtitle = await ytdl.getInfo(URL3)
     console.log(songtitle.videoDetails.title) //Remove if you want
         res.set({
-            'Content-Disposition': 'attachment; filename=' + songtitle.videoDetails.title + '.mp4'
+            'Content-Disposition': contentDisposition(songtitle.videoDetails.title + '.mp4')
           //Download video with his name
         });
 })();
